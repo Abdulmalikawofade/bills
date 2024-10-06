@@ -1,5 +1,5 @@
 *{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
 }
 .funds{
     box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.4);
@@ -104,4 +104,11 @@ body{
     gap: 2em;
     width: 95%;
     margin: 0 auto;
-}`  
+    padding: 2em 0;
+    font-family: 'Inter';
+}  
+@media(max-width:500px){
+    .record-holder {
+        width: 70%;
+    }
+}
